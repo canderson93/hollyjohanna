@@ -803,6 +803,8 @@ a:active {
 
 .main-navigation {
 	font-family: Montserrat, "Helvetica Neue", sans-serif;
+	text-transform: uppercase;
+	font-weight: 100;
 }
 
 .site-footer .main-navigation {
@@ -1560,8 +1562,6 @@ blockquote:after,
 
 .site-content {
 	word-wrap: break-word;
-	max-width: 90ch;
-	margin: 0 auto;
 }
 
 /* Do not show the outline on the skip link target. */
@@ -1595,6 +1595,12 @@ blockquote:after,
 	-webkit-flex-wrap: wrap;
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+.site-header-rule {
+	width: 60%;
+	margin: 0;
 }
 
 .site-branding {
@@ -3187,8 +3193,8 @@ p > video {
 
 	.content-area.full-width {
 		float: none;
-		margin: 0;
-		width: 100%;
+		max-width: 90ch;
+		margin: 0 auto;
 	}
 
 	.entry-header,
