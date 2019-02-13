@@ -462,11 +462,6 @@ html {
 	box-sizing: inherit;
 }
 
-body {
-	background: #1a1a1a;
-	/* Fallback for when there is no custom background color defined. */
-}
-
 hr {
 	background-color: #d1d1d1;
 	border: 0;
@@ -1549,10 +1544,6 @@ blockquote:after,
 /**
  * 11.0 - Content
  */
-
-.site {
-	background-color: #fff;
-}
 
 .site-inner {
 	margin: 0 auto;
@@ -2817,10 +2808,6 @@ p > video {
 
 	body:not(.custom-background-image):after {
 		bottom: 0;
-	}
-
-	.site {
-		margin: 21px;
 	}
 
 	.site-main {
